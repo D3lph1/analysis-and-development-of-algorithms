@@ -1,7 +1,7 @@
 version: '3.6'
 
 services:
-    nginx:
+    anaconda:
         image: continuumio/anaconda3:latest
         container_name: anaconda
         ports:
